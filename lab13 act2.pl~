@@ -1,0 +1,16 @@
+listensToMusic(aqsa).
+happy(munaza).
+playsAirGuitar(aqsa) :- listensToMusic(aqsa),
+    write('aqsa plays Air Guitar if she listens to music').
+parent(albert,bob).
+parent(albert,betsy).
+parent(albert,billi).
+parent(alicce,bob).
+parent(alice,billi).
+parent(bob,charlie).
+teacher(albert).
+teacher(alice).
+get_grandParent(X,Y):-
+    parent(Z,X).
+
+
